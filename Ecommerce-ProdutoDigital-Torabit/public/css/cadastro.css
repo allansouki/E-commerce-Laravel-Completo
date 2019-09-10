@@ -1,0 +1,130 @@
+
+/**** Compartilha CSS com 'cadastro.php' e 'configuracoes.php' ****/
+
+html, body {
+	height: 100%;
+	background: white;
+}
+
+#area-cadastro {
+	width: 76%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 35px;
+	padding-left: 20px;
+}
+
+#login {
+	width: 6%;
+}
+
+#login a:hover {
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+.campo, .email, .senha {
+	/*width: 40%;*/
+	/*min-width: 40%;*/
+	background-color: white /* #e6f2ff */;
+}
+
+.email, .senha {
+	padding-left: 30px;
+}
+
+#area-cadastro label {
+	color:/* #5c5c3d*/ black;
+}
+
+#area-cadastro .agree {
+	color: /*#5c5c3d*/ black;
+	margin-top: 10px;
+}
+
+#area-cadastro h2, #area-cadastro h6 {
+	color: #141452;
+}
+
+/*********************************** Configurações (exclusivo) ********************************/
+
+#topico {
+	width: 45%;
+}
+
+.cancelar {
+	background-color: #e0e0d1;
+}
+
+.conta {
+	float: left;
+}
+
+.forma {
+	float: right;
+}
+
+.email2, .senha2{
+/*	width: 40%;
+	min-width: 40%; */
+	padding-left: 30px;
+	background-color: #e6f2ff;
+} 
+
+#botoes button {
+	width: 220px;
+	height: 35px;
+	margin-right: 15px;
+}
+
+#topico .conta:hover, #topico .forma:hover {
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+/************************************** Media Querie *************************************/
+
+@media (max-width: 767.98px) { 
+
+	.email, .email2 {
+		background: url('imgs/imagens_cortadas/icone-usuario.png') no-repeat left center;
+		background-size: 3%;
+		background-position: 10px;
+	}
+
+	.cancelar {
+		margin-bottom: 15px;
+	}
+	
+	.senha, .senha2 {
+		background: url('imgs/imagens_cortadas/icone-cadeado.png') no-repeat left center;
+		background-size: 3%; 
+		background-position: 10px;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	.campo, .select {
+		width: 40%;
+	    min-width: 40%;
+	}
+    
+    .email, .email2 {
+		background: url('imgs/imagens_cortadas/icone-usuario.png') no-repeat left center;
+		background-size: 3.5%;
+		background-position: 10px;
+		width: 40%;
+	    min-width: 40%;
+	}
+
+	.senha, .senha2 {
+		background: url('imgs/imagens_cortadas/icone-cadeado.png') no-repeat left center;
+		background-size: 3.5%;
+		background-position: 10px; 
+		width: 40%;
+	    min-width: 40%;
+	}
+}

@@ -1,0 +1,132 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font: 15px arial;
+  color: rgba(0, 0, 0, .7);
+  background-image: url("imgs/imagens_cortadas/05.jpg");
+}
+
+.wrapper {
+  height: 100%;
+  min-height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  
+  
+}
+
+.wrapper .topo {
+    width: 400px;
+    height: 500px;
+  padding: 40px;
+  border: 1px  rgb(153, 159, 161);
+  border-color:rgb(153, 159, 161); 
+  background-color: white;
+  border-radius:10px;
+  
+}
+.pos1{
+  position: relative; 
+  top: -10px; 
+}
+
+div.titulo {
+    position: relative;
+    top: -10px;
+  width: 400px;
+  height: 1px;
+  color: rgb(153, 159, 161);
+  background-color:rgb(153, 159, 161);
+  text-align: center;
+}
+div.titulo span {
+    position: relative;
+    top: -10px;
+  background-color: white;
+  position: relative;
+  top: -0.5em;
+  padding: 0 10px;
+  
+}
+.imput1 input {
+ position: relative;
+ top: -10px;
+ width: 400px;
+ height: 25px;
+ border-radius: 5px;
+ border-style: solid;
+ border-color: rgba(207, 206, 203);
+  }
+.imput2 input {
+  position: relative;
+  top: -15px;
+  width: 400px;
+  height: 25px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(207, 206, 203);
+          }
+ #esqueceu{
+  position: relative;
+  width: 220px;
+  top:-20px;
+  left: 200px;
+  color: rgb(23, 181 , 237);
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+  color:rgb(23, 181 , 237);
+  text-decoration: none;
+}
+
+.botao input{
+  position: relative;
+  top: -15px;
+  background-color: rgb(23, 181 , 237);
+  width: 400px;
+  height: 39px;
+  border: none;
+  padding: 10px 30px;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  bottom: 25%;
+  color: white;
+  border-radius: 7px; 
+  } 
+.texto{
+  position: relative;
+  top: -15px;
+  color:rgb(153, 159, 161);
+  font-size: 15px;
+    }
+  .botao1 input{
+  position: relative;
+  top: -15px;
+  background-color: rgb(159, 165, 167);
+  width: 400px;
+  height: 39px;
+  border: none;
+  padding: 10px 30px;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  bottom: 25%;
+  color: white;
+  border-radius: 7px;
+  }
+
+  teste

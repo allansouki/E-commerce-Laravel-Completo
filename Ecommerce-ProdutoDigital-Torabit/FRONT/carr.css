@@ -1,0 +1,112 @@
+
+
+  
+
+  /*  meu css
+*/
+
+.card{
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+    height: 283px;
+    
+}
+
+.imagem{
+
+width: 400px;
+height: 171px;
+
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+}
+ 
+.card-title{
+
+position: relative;
+top: -15px;
+display: flex;
+justify-content: center;
+
+}
+.card-text{
+
+    position: relative;
+    top: -15px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 17
+    px;
+    color: black;   
+    }
+
+    .mensal{
+        position: relative;
+        top: -30px;
+        display: flex;
+        justify-content: center;
+        color: rgb(41, 41, 41);
+        font-size: 13px;
+        font-weight: bold;
+        
+    }
+
+    a.btn.btn-primary{
+        position: relative;
+        top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+
+
+
+
+    .owl-prev, .owl-next{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background: none !important;
+     }
+     
+     /* crio os pseudo-elementos */
+     
+
+     
+     /* hover para mudar de cor */
+     
+     
+     /* crio as setas e centralizo */
+     .owl-prev::after, .owl-next::after {
+        content: "";
+        width: 16px;
+        height: 18px;
+        position: absolute;
+        transform: rotate(135deg);
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        top: 50%; left: 50%;
+        margin-top: -9px;
+        margin-left: -4px;
+     }
+     
+     /* ajusto a seta next */
+     .owl-next::after {
+        transform: rotate(-45deg);
+        margin-left: -14px;
+     }
+
+   .mes{
+
+   font-size: 150px;
+   font:bold;
+
+   }
+
+
+   
+
+    
